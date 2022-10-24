@@ -24,7 +24,7 @@
     <p id = "fireworks"> Fireworks </p>
     <p> This first animation is that of fireworks! Much cheaper than the real thing and yet still satisfying to watch and create! </p>
     	
-    <div id="c2" style ="text-align:center; display: inline"></div>
+    <div id="c2" ></div>
     <p id = "clock"> Clock <p>
     <p> The second animation is that of an inventive clock: to help you tell the time so that you aren't late to see the fireworks! <p>
     <div id="c5"></div>
@@ -83,10 +83,9 @@
           width: 50%;
       }
        #c2 {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          width: 50%;
+          display:flex;
+          align-items: center; /*vertical alignement*/
+          justify-content: center; 
       }
       #more {
         text-align: center;
