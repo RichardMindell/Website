@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
 
   </head>
-  <body style="background-color:#EEA47FFF;">
+  <body>
     <main>
     </main>
     <div style="display:grid; justify-content:center">    
@@ -19,15 +19,18 @@
     <a href = "games.html"> Games </a>
     <a href = "contact.html"> Contact </a>
     </div>
-    <h1> Animations </h1>
-    <p> In this page are some animations that I have recreated that I thought were fun! Lots of credit must go to Hugo Elias and Daniel Shiffman (thecodingtrain.com) for the ideas, tutorials and joy that they bring to making them.</p>
-    <p id = "fireworks"> Fireworks </p>
-    <p> This first animation is that of fireworks! Much cheaper than the real thing and yet still satisfying to watch and create! </p>
+    <h1> Games </h1>
+    <p> In this page are some games that I have recreated that I have always enjoyed. Please let me know if there are any bugs by using the contact page.</p>
+    <p id = "snake"> Snake </p>
+    <p> The first game is an age old classic: snake. Use 'w','a','s','d' to control the Snake. </p>
+    <div style="display:grid; justify-content:center">
+      <p id = "butt"> </p>
+    </div>
+      <p id = "blankP">  </p>
+      <p id = "eog"></p>
+      <p id = "score"> </p>
     
-	<div id="c2"></div>
-    <p id = "clock"> Clock <p>
-    <p> The second animation is that of an inventive clock: to help you tell the time so that you aren't late to see the fireworks! <p>
-    <div id="c5"></div>
+  	<div id="c3"></div>
     <p id = "more"> More Coming Soon!</p>
     <style>
       #name {
@@ -53,37 +56,7 @@
         display: in-line-block;
         text-decoration: none;
       }
-      
-      h1 {
-        color: #FEE715FF;
-        text-align: center;        
-      }
-      
-      p {
-        color: #00539CFF;
-        text-align: center;
-      }
-      #fireworks {
-        color: #FEE715FF;
-        text-align: center;
-        font-size: 16pt;
-        font-family: Palatino;
-      }
-      #clock {
-        color: #FEE715FF;
-        text-align: center;
-        font-size: 16pt;
-        font-family: Palatino;
-      }
-      #c2 {
-        display: block;
-        text-align: center;
-      }
-      #c5 {
-        display: block;
-        text-align: center;
-      }
-      #more {
+             #more {
         text-align: center;
         font-size: 16pt;
         color: #FEE715FF;
@@ -94,8 +67,58 @@
         display: in-line-block;
         text-decoration: none;
       }
+                   #blankP {
+        text-align: center;
+        font-size: 22pt;
+        color: #00539CFF;
+        font-family: Palatino;
+        font-weight: bold;
+        padding-right: 10px;
+        padding-left: 10px;
+        display: in-line-block;
+        text-decoration: none;
+      }
+      h1 {
+        color: #FEE715FF;
+        text-align: center;        
+      }
+      
+      p {
+        color: #00539CFF;
+        text-align: center;
+      }
+      #blank {
+        color: #00539CFF;
+        text-align: center;
+      }
+      #snake {
+        color: #FEE715FF;
+        text-align: center;
+        font-size: 16pt;
+        font-family: Palatino;
+      }
+      #c3 {
+        display: block;
+        text-align: center;
+      }
+      button {
+        display: inline-block;
+        text-align: center;
+        color: #00539CFF;
+        background-color:#FEE715FF;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      button:hover {
+      background-color: #00539CFF;
+      color: #FEE715FF;
+      
     </style>
     <script src="sketch.js"></script>
-    <script src="animations.js"></script>
+    <script src="snake.js"></script>
   </body>
 </html>
+
+

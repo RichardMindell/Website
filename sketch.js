@@ -2,7 +2,7 @@ let snowflakes = [];
 let links;
 
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(displayWidth, displayHeight);
   canvas.position(0,0);
   canvas.style('z-index', '-1');
   
@@ -30,7 +30,7 @@ function draw() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth,windowHeight)
+  resizeCanvas(displayWidth,displayHeight)
 }    
 
 function highlight() {
@@ -40,4 +40,6 @@ function highlight() {
 function unHighlight() {
   this.style('color','#00539CFF')
 }
+
+
 
