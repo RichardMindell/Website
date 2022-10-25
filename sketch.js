@@ -40,10 +40,10 @@ function highlight() {
 function unHighlight() {
   this.style('color','#00539CFF')
 }
-function touchStarted () {
-  if (!fullscreen()) {
-    fullscreen(true);
-  }
-}
+//function touchStarted () {
+ // if (!fullscreen()) {
+   // fullscreen(true);
+ //}
+//}
 
 
