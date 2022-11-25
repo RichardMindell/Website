@@ -14,7 +14,7 @@ p.setup = function() {
   p.createCanvas(300, 300);
   w = p.floor(p.width / rez);
   h = p.floor(p.height / rez);
-  p.frameRate(15);
+  p.frameRate(10);
   z = p.createP('Your score was:' + '' + score)
   gameEndVar = p.createP('GAME OVER')
 //  z = p.select('#score')
